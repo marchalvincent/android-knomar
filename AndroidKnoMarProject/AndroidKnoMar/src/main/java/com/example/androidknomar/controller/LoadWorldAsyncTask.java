@@ -6,7 +6,10 @@ import android.os.AsyncTask;
 import android.view.View;
 
 import com.example.androidknomar.R;
+import com.example.androidknomar.model.User;
 import com.example.androidknomar.model.World;
+import com.example.androidknomar.util.TweetParser;
+import com.example.androidknomar.util.UserParser;
 import com.example.androidknomar.view.ViewUsers;
 
 /**
@@ -25,9 +28,12 @@ public class LoadWorldAsyncTask extends AsyncTask<Void, Integer, World> {
     protected World doInBackground(Void... voids) {
         // TODO Michel see URL.USERS
         try {
-            Thread.sleep(2000);
-        } catch(Exception e) {
+            UserParser userparser = new UserParser();
+            World world = new World();
+            world.setUsers(userparser.loadAndParseUsersFile());
 
+        } catch(Exception e) {
+            e.printStackTrace();
         }
         return null;
     }

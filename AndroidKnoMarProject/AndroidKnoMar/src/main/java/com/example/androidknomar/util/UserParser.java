@@ -14,9 +14,8 @@ import java.util.List;
 /**
  * Created by marchal.vincent on 25/01/14.
  */
-public class UserParser extends AbstractParser{
-
-    private static final String CONST_URL = "http://pagesperso-systeme.lip6.fr/Etienne.Renault/androidtweets/users.xml";
+public class UserParser extends AbstractParser
+{
 
     private List<User> listUser;
     private User currentUser;
@@ -25,7 +24,18 @@ public class UserParser extends AbstractParser{
 
     public UserParser() throws Exception
     {
-        super(new URI(CONST_URL));
+        super(new URI(URL.USERS));
+    }
+
+    public List<User> loadAndParseUsersFile() throws Exception {
+
+        InputStream inputStream = getStream();
+
+        XmlPullParser xmlPullParser = initializer(inputStream);
+
+        this.parseSource(xmlPullParser);
+
+        return listUser;
     }
 
     @Override
