@@ -1,0 +1,11 @@
+syntax: glob
+AndroidKnoMarProject/local.properties
+AndroidKnoMarProject/AndroidKnoMar/build/incremental/mergeResources/debug/merger.xml
+AndroidKnoMarProject/AndroidKnoMar/build/res/all/debug/values/values.xml
+AndroidKnoMarProject/AndroidKnoMar/build/res/all/debug/values-w820dp/values.xml
+AndroidKnoMarProject/AndroidKnoMar/build/res/all/debug/menu/main.xml
+AndroidKnoMarProject/AndroidKnoMar/build/res/all/debug/layout/fragment_main.xml
+AndroidKnoMarProject/AndroidKnoMar/build/manifests/debug/AndroidManifest.xml
+AndroidKnoMarProject/AndroidKnoMar/build/libs/AndroidKnoMar-debug.dex
+AndroidKnoMarProject/AndroidKnoMar/build/libs/AndroidKnoMar-debug.ap_
+AndroidKnoMarProject/AndroidKnoMar/build/incremental/mergeResources/debug/outputs.data
