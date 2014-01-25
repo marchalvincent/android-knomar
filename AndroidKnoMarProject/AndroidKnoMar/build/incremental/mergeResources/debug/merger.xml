@@ -94,11 +94,6 @@
                 qualifiers="xhdpi"
                 type="drawable" />
             <file
-                name="fragment_users"
-                path="C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\src\main\res\layout\fragment_users.xml"
-                qualifiers=""
-                type="layout" />
-            <file
                 name="ok"
                 path="C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\src\main\res\drawable-xxhdpi\ok.png"
                 qualifiers="xxhdpi"
@@ -108,11 +103,6 @@
                 path="C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\src\main\res\drawable-hdpi\no.png"
                 qualifiers="hdpi"
                 type="drawable" />
-            <file
-                name="rowlayout"
-                path="C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\src\main\res\layout\rowlayout.xml"
-                qualifiers=""
-                type="layout" />
             <file
                 name="ok"
                 path="C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\src\main\res\drawable-mdpi\ok.png"
@@ -149,10 +139,80 @@
                 qualifiers="mdpi"
                 type="drawable" />
             <file
-                name="rowselection"
-                path="C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\src\main\res\menu\rowselection.xml"
+                name="select_user_bar"
+                path="C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\src\main\res\menu\select_user_bar.xml"
                 qualifiers=""
                 type="menu" />
+            <file
+                name="next"
+                path="C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\src\main\res\drawable-mdpi\next.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="next"
+                path="C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\src\main\res\drawable-xxhdpi\next.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="next"
+                path="C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\src\main\res\drawable-xhdpi\next.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="next"
+                path="C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\src\main\res\drawable-hdpi\next.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="rss"
+                path="C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\src\main\res\drawable-xxhdpi\rss.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="rss"
+                path="C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\src\main\res\drawable-hdpi\rss.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="user"
+                path="C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\src\main\res\drawable-hdpi\user.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="activity_tweets"
+                path="C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\src\main\res\layout\activity_tweets.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="user"
+                path="C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\src\main\res\drawable-mdpi\user.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="rss"
+                path="C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\src\main\res\drawable-xhdpi\rss.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="show_tweets_bar"
+                path="C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\src\main\res\menu\show_tweets_bar.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="user"
+                path="C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\src\main\res\drawable-xhdpi\user.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="user"
+                path="C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\src\main\res\drawable-xxhdpi\user.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="rss"
+                path="C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\src\main\res\drawable-mdpi\rss.png"
+                qualifiers="mdpi"
+                type="drawable" />
         </source>
         <source path="C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\build\res\rs\debug" />
     </dataSet>

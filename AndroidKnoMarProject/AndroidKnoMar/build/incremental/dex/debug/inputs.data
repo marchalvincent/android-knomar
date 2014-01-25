@@ -1,26 +1,29 @@
 # incremental data. DO NOT EDIT.
 # format is <lastModified> <length> <SHA-1> <path>
 # Encoding is UTF-8
-1390668587176 511 2cd92a3e66b1fb69a3eda62f0db7dd0dcfdde1e7 C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\R$drawable.class
-1390665097755 3171 fd4997016e72464f40e97bc259e6800be1669506 C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\util\TweetParser.class
+1390678465083 1141 b9dfc4a707b311a24372ad2862850035f47a65fe C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\view\ViewUsers$1.class
+1390678008988 594 e580557a6617a270a1166c007bd7ae55151d191e C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\R$drawable.class
 1390652366578 338 0a493177022c8ab9a97d86a36507d768a75a1d0a C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\controller\TmpController.class
-1390669931076 445 7f3705c76ab3f15c6f7309d198c1a7b1253c5429 C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\R$menu.class
-1390652366634 477 8824834a52730f6e9c0597cb564e63d7d69ae407 C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\util\URL.class
-1390671885871 963 302783e0c5dd436e7a37047d94ffb09d5f133dce C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\view\MainActivity$PlaceholderFragment.class
+1390665097755 3171 fd4997016e72464f40e97bc259e6800be1669506 C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\util\TweetParser.class
 1390669744588 945 f31f36f7b4392fe0c98cde35b533c35c3c901bb5 C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\model\World.class
-1390672596716 1716 9136816292b33eaa97ab8fcf6365a555c321ffbc C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\model\User.class
-1390672701986 2398 32bb126706cf689b29b51ac7b2d8369304205c1f C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\view\ViewUsers.class
 1390665097481 1844 167a804c080df2db350cb02e867cd65d662e99ff C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\model\Tweet.class
-1390671056562 1655 30fdd822af732c73324b42c4c738de593a8eb0dd C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\util\MySimpleArrayAdapter.class
-1390669744581 3240 2ae18dde5cf1308eae60594bc5a59f7584dadbee C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\controller\LoadWorldAsyncTask.class
 1390652366717 482 2f057641da9dd55c893e9d4b4485c8e0fa7f68b2 C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\R$dimen.class
+1390683813399 538 a18e7e57c17cd1ac7a645dbaa1e92aca4255c48f C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\R$layout.class
+1390652366744 480 07aa1b014628b5ad882f45879c42ca03c0c49474 C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\BuildConfig.class
+1390683813217 1651 af292204a581fb158e177d738d627df72efb04b9 C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\view\MainActivity.class
+1390683813408 416 d81b6ad9d7da74b5161ac70f58fbbe726fb05f29 C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\R$style.class
+1390669744684 2978 4729a6bf89af27c89abc1db32163853076f343a4 C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\util\UserParser.class
+1390683813433 747 ba3e24c245f2df94ebfd42c6d91479d781491303 C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\R.class
+1390683813402 487 4317687ec02521dcf1c0cbbcb002ce57cbe10940 C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\R$menu.class
+1390652366634 477 8824834a52730f6e9c0597cb564e63d7d69ae407 C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\util\URL.class
+1390678008808 963 d489d7492f96d42725f48bc0dc569aca1fb8dda6 C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\view\MainActivity$PlaceholderFragment.class
+1390672596716 1716 9136816292b33eaa97ab8fcf6365a555c321ffbc C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\model\User.class
+1390683932370 3137 b1e15aacdfdf37746fb9ffc42352cccd250e3da9 C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\view\ViewUsers.class
+1390678008645 3135 e05642c8b775fbe4a30f25f18226edba6346043c C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\controller\LoadWorldAsyncTask.class
 1390652366714 361 37dd1e813b3c7d5a96aa79aafa117127553798b9 C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\R$attr.class
 1390665097600 2577 27a0f0364143ef27a0fe555e22e9edb0cddb16bc C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\util\AbstractParser.class
-1390652366744 480 07aa1b014628b5ad882f45879c42ca03c0c49474 C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\BuildConfig.class
-1390669931073 570 ecc7440084282da2dc1707ce243f00758367ed33 C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\R$layout.class
-1390671885878 1651 74369b1bcafaa172130e8386830cd04a327f7a49 C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\view\MainActivity.class
-1390669931082 416 51f764444404f345ed3c2116a32039a5aa1d2c7a C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\R$style.class
-1390669744684 2978 4729a6bf89af27c89abc1db32163853076f343a4 C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\util\UserParser.class
-1390669931079 493 4f22d6235829fa8d39696a3d2597e89857a5ba1d C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\R$string.class
-1390669931070 607 5ae544f935f9064472a88023f10eb2cfa08ce24c C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\R$id.class
-1390669931085 747 7a0aeeffba3c8948fb06827fe2735b0f9c869015 C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\R.class
+1390678008898 949 a6dc080d9f75365800af472a44ecf35df739068b C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\view\ViewTweets$2.class
+1390683813325 4671 cb706625b5a784e3af1c1af4a5ae405f162ab44d C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\view\ViewTweets.class
+1390678008893 953 fa2500e824d25e3f87410a27344bee7016712af9 C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\view\ViewTweets$1.class
+1390683813405 493 31367d125cb6657f3152c77eb9a9fce93aaeb138 C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\R$string.class
+1390683813395 663 7eefb0a44a07156ef6d80dc47fc03c6d2e03615e C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\R$id.class

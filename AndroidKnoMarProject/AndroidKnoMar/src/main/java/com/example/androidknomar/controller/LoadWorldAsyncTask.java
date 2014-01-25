@@ -53,7 +53,6 @@ public class LoadWorldAsyncTask extends AsyncTask<Void, Integer, World> {
         System.out.println("Parsing xml finit");
         // on fait passer la page suivante, une nouvelle activité
         Intent i = new Intent(activity.getApplicationContext(), ViewUsers.class);
-        i.putExtra("world", result);
         activity.startActivity(i);
     }
 
