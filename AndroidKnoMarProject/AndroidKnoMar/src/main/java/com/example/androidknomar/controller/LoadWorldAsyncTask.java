@@ -29,7 +29,7 @@ public class LoadWorldAsyncTask extends AsyncTask<Void, Integer, World> {
         // TODO Michel see URL.USERS
         try {
             UserParser userparser = new UserParser();
-            World world = new World();
+            World world = World.instance;
             world.setUsers(userparser.loadAndParseUsersFile());
 
         } catch(Exception e) {

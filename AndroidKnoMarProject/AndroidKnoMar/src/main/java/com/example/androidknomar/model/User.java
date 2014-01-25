@@ -49,4 +49,9 @@ public class User implements Serializable
     public void setListTweet(List<Tweet> listTweet) {
         this.listTweet = listTweet;
     }
+
+    @Override
+    public String toString() {
+        return getName();
+    }
 }
