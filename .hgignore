@@ -23,3 +23,8 @@ AndroidKnoMarProject/.gradle/1.8/taskArtifacts/taskArtifacts.bin
 AndroidKnoMarProject/.gradle/1.8/taskArtifacts/outputFileStates.bin
 AndroidKnoMarProject/.gradle/1.8/taskArtifacts/fileSnapshots.bin
 AndroidKnoMarProject/.gradle/1.8/taskArtifacts/fileHashes.bin
+AndroidKnoMarProject/AndroidKnoMar/build/incremental/dex/debug/inputs.data
+AndroidKnoMarProject/AndroidKnoMar/build/classes/debug/com/example/androidknomar/util/UserParser.class
+AndroidKnoMarProject/AndroidKnoMar/build/classes/debug/com/example/androidknomar/model/World.class
+AndroidKnoMarProject/AndroidKnoMar/build/classes/debug/com/example/androidknomar/controller/LoadWorldAsyncTask.class
+AndroidKnoMarProject/AndroidKnoMar/build/apk/AndroidKnoMar-debug-unaligned.apk
