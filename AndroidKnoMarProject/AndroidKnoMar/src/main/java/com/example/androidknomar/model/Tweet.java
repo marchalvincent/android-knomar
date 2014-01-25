@@ -65,5 +65,8 @@ public class Tweet implements Serializable
         this.date = date;
     }
 
-
+    @Override
+    public String toString() {
+        return getUser().getName() + "\n" + getHashtag();
+    }
 }
