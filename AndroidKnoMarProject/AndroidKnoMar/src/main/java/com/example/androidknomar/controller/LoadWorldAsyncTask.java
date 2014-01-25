@@ -3,14 +3,18 @@ package com.example.androidknomar.controller;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.AsyncTask;
+import android.util.Log;
 import android.view.View;
 
 import com.example.androidknomar.R;
+import com.example.androidknomar.model.Tweet;
 import com.example.androidknomar.model.User;
 import com.example.androidknomar.model.World;
 import com.example.androidknomar.util.TweetParser;
 import com.example.androidknomar.util.UserParser;
 import com.example.androidknomar.view.ViewUsers;
+
+import java.util.List;
 
 /**
  * Created by marchal.vincent on 25/01/14.
@@ -32,6 +36,24 @@ public class LoadWorldAsyncTask extends AsyncTask<Void, Integer, World> {
             UserParser userparser = new UserParser();
             world = World.instance;
             world.setUsers(userparser.loadAndParseUsersFile());
+
+            /*
+            TweetParser parser;
+            for(User user : world.getUsers())
+            {
+                parser = new TweetParser(user);
+                List<Tweet> list =  parser.loadAndParseTweetFile();
+                for (Tweet tweet : list)
+                {
+                    Log.e("",tweet.getDate());
+                    Log.e("",tweet.getHashtag());
+                    Log.e("",tweet.getMessage());
+                    Log.e("",tweet.getUser().toString());
+                    Log.e("",tweet.getUrl().toString());
+                }
+
+            }
+            */
 
         } catch(Exception e) {
             e.printStackTrace();
