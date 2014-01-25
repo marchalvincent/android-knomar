@@ -19,9 +19,8 @@ public abstract class AbstractParser {
 
     private URI uri;
 
-    public AbstractParser(URI uri) throws URISyntaxException {
-        super();
-        uri = uri;
+    public AbstractParser(URI uri) throws Exception {
+        this.uri = uri;
     }
 
     protected InputStream getStream() throws Exception {
