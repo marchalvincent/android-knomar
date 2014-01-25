@@ -12,6 +12,7 @@ import android.view.ViewGroup;
 import android.os.Build;
 
 import com.example.androidknomar.R;
+import com.example.androidknomar.controller.LoadWorldAsyncTask;
 
 public class MainActivity extends Activity {
 
@@ -25,6 +26,12 @@ public class MainActivity extends Activity {
                     .add(R.id.container, new PlaceholderFragment())
                     .commit();
         }
+
+        // TODO charger les XMLs
+        LoadWorldAsyncTask loader = new LoadWorldAsyncTask(this);
+        loader.execute();
+
+
     }
 
 
