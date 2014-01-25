@@ -98,6 +98,61 @@
                 path="C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\src\main\res\layout\fragment_users.xml"
                 qualifiers=""
                 type="layout" />
+            <file
+                name="ok"
+                path="C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\src\main\res\drawable-xxhdpi\ok.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="no"
+                path="C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\src\main\res\drawable-hdpi\no.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="rowlayout"
+                path="C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\src\main\res\layout\rowlayout.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="ok"
+                path="C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\src\main\res\drawable-mdpi\ok.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="no"
+                path="C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\src\main\res\drawable-xhdpi\no.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ok"
+                path="C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\src\main\res\drawable-hdpi\ok.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="activity_users"
+                path="C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\src\main\res\layout\activity_users.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="ok"
+                path="C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\src\main\res\drawable-xhdpi\ok.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="no"
+                path="C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\src\main\res\drawable-xxhdpi\no.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="no"
+                path="C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\src\main\res\drawable-mdpi\no.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="rowselection"
+                path="C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\src\main\res\menu\rowselection.xml"
+                qualifiers=""
+                type="menu" />
         </source>
         <source path="C:\workspace Android\Tweet\AndroidKnoMarProject\AndroidKnoMar\build\res\rs\debug" />
     </dataSet>

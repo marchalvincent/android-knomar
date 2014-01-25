@@ -1,7 +1,9 @@
 package com.example.androidknomar.controller;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.AsyncTask;
+import android.view.View;
 
 import com.example.androidknomar.R;
 import com.example.androidknomar.model.World;
@@ -43,10 +45,10 @@ public class LoadWorldAsyncTask extends AsyncTask<Void, Integer, World> {
     @Override
     protected void onPostExecute(World result) {
         System.out.println("Parsing xml finit");
-        // on fait passer la page suivante
-        activity.getFragmentManager().beginTransaction()
-                .replace(R.id.container, new ViewUsers(result))
-                .commit();
+        // on fait passer la page suivante, une nouvelle activité
+        Intent i = new Intent(activity.getApplicationContext(), ViewUsers.class);
+        i.putExtra("world", result);
+        activity.startActivity(i);
     }
 
     @Override

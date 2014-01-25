@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menuitem1_show"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+</menu><!-- From: file:/C:/workspace%20Android/Tweet/AndroidKnoMarProject/AndroidKnoMar/src/main/res/menu/rowselection.xml -->
