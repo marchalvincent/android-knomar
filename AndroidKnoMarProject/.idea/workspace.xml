@@ -68,23 +68,7 @@
       </breakpoint>
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints>
-      <breakpoint url="file://$PROJECT_DIR$/AndroidKnoMar/src/main/java/com/example/androidknomar/view/ViewUsers.java" line="35" class="com.example.androidknomar.view.ViewUsers" package="com.example.androidknomar.view">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -94,88 +78,101 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AndroidKnoMar/src/main/java/com/example/androidknomar/view/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="0" selection-start="849" selection-end="849" vertical-scroll-proportion="0.5151515" vertical-offset="0" max-vertical-offset="1054">
+            <state line="28" column="0" selection-start="849" selection-end="849" vertical-scroll-proportion="0.0" vertical-offset="157" max-vertical-offset="1054">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AndroidKnoMar/src/main/java/com/example/androidknomar/model/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="29" selection-start="771" selection-end="784" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
-              <folding>
-                <element signature="e#719#720#0" expanded="true" />
-                <element signature="e#752#753#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoadWorldAsyncTask.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AndroidKnoMar/src/main/java/com/example/androidknomar/controller/LoadWorldAsyncTask.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="0" selection-start="1087" selection-end="1087" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1088">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ViewTweets.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="ViewTweets.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AndroidKnoMar/src/main/java/com/example/androidknomar/view/ViewTweets.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="47" selection-start="1001" selection-end="1001" vertical-scroll-proportion="0.0" vertical-offset="393" max-vertical-offset="2193">
+            <state line="53" column="0" selection-start="1367" selection-end="1367" vertical-scroll-proportion="0.33333334" vertical-offset="436" max-vertical-offset="2006">
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1347#1353#0" expanded="true" />
-                <element signature="e#1453#1460#0" expanded="true" />
-                <element signature="e#1746#1951#0" expanded="true" />
-                <element signature="e#1940#1941#0" expanded="true" />
-                <element signature="e#2067#2265#0" expanded="true" />
-                <element signature="e#2254#2255#0" expanded="true" />
-                <element signature="e#3060#3066#0" expanded="true" />
-                <element signature="e#3311#3318#0" expanded="true" />
+                <element signature="e#2406#2412#0" expanded="true" />
+                <element signature="e#2722#2729#0" expanded="true" />
+                <element signature="e#2940#2946#0" expanded="true" />
+                <element signature="e#3256#3263#0" expanded="true" />
+                <element signature="e#3565#3572#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_tweets.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AndroidKnoMar/src/main/res/layout/activity_tweets.xml">
+      <file leaf-file-name="show_tweets_bar.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AndroidKnoMar/src/main/res/menu/show_tweets_bar.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="36" selection-start="318" selection-end="334" vertical-scroll-proportion="-5.44" vertical-offset="0" max-vertical-offset="255">
+            <state line="9" column="43" selection-start="286" selection-end="302" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
               <folding />
             </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_main.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AndroidKnoMar/src/main/res/layout/activity_main.xml">
+      <file leaf-file-name="ViewUsers.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AndroidKnoMar/src/main/java/com/example/androidknomar/view/ViewUsers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="36" selection-start="198" selection-end="198" vertical-scroll-proportion="-2.04" vertical-offset="0" max-vertical-offset="238">
-              <folding />
+            <state line="39" column="65" selection-start="999" selection-end="1031" vertical-scroll-proportion="0.0" vertical-offset="206" max-vertical-offset="1105">
+              <folding>
+                <element signature="e#953#959#0" expanded="true" />
+              </folding>
             </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_users.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AndroidKnoMar/src/main/res/layout/activity_users.xml">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AndroidKnoMar/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="491" selection-end="491" vertical-scroll-proportion="-8.84" vertical-offset="0" max-vertical-offset="357">
+            <state line="25" column="50" selection-start="926" selection-end="926" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="android-designer">
-            <state />
+        </entry>
+      </file>
+      <file leaf-file-name="select_user_bar.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AndroidKnoMar/src/main/res/menu/select_user_bar.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="38" selection-start="134" selection-end="145" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AndroidKnoMar/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="0" selection-start="146" selection-end="146" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.gradle" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/settings.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="119">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidKnoMarProject.iml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AndroidKnoMarProject.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="0" selection-start="578" selection-end="578" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="local.properties" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/local.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="58" selection-start="480" selection-end="480" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -535,7 +532,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/AndroidKnoMar/src/main/res/menu/rowselection.xml" />
         <option value="$PROJECT_DIR$/AndroidKnoMar/src/main/java/com/example/androidknomar/model/World.java" />
         <option value="$PROJECT_DIR$/AndroidKnoMar/src/main/res/layout/fragment_users.xml" />
         <option value="$PROJECT_DIR$/AndroidKnoMar/src/main/java/com/example/androidknomar/util/MySimpleArrayAdapter.java" />
@@ -546,11 +542,12 @@
         <option value="$PROJECT_DIR$/AndroidKnoMar/src/main/java/com/example/androidknomar/controller/LoadWorldAsyncTask.java" />
         <option value="$PROJECT_DIR$/AndroidKnoMar/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/AndroidKnoMar/src/main/java/com/example/androidknomar/view/MainActivity.java" />
-        <option value="$PROJECT_DIR$/AndroidKnoMar/src/main/java/com/example/androidknomar/view/ViewTweets.java" />
         <option value="$PROJECT_DIR$/AndroidKnoMar/src/main/res/layout/activity_tweets.xml" />
         <option value="$PROJECT_DIR$/AndroidKnoMar/src/main/res/layout/activity_users.xml" />
-        <option value="$PROJECT_DIR$/AndroidKnoMar/src/main/java/com/example/androidknomar/view/ViewUsers.java" />
+        <option value="$PROJECT_DIR$/local.properties" />
         <option value="$PROJECT_DIR$/AndroidKnoMar/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/AndroidKnoMar/src/main/java/com/example/androidknomar/view/ViewUsers.java" />
+        <option value="$PROJECT_DIR$/AndroidKnoMar/src/main/java/com/example/androidknomar/view/ViewTweets.java" />
       </list>
     </option>
   </component>
@@ -587,7 +584,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -795,44 +791,6 @@
               <option name="myItemId" value="androidknomar" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AndroidKnoMar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AndroidKnoMarProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AndroidKnoMar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="androidknomar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -870,6 +828,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -928,19 +887,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -966,6 +912,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1026,7 +985,7 @@
       <option name="MODE" value="default_activity" />
       <option name="DEPLOY" value="true" />
       <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="true" />
       <option name="PREFERRED_AVD" value="" />
       <option name="USE_COMMAND_LINE" value="true" />
       <option name="COMMAND_LINE" value="" />
@@ -1087,7 +1046,6 @@
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23697917" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936078" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3997833" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1106,6 +1064,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936078" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1121,107 +1080,14 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/AndroidKnoMar/src/main/java/com/example/androidknomar/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="29" selection-start="771" selection-end="784" vertical-scroll-proportion="0.0" vertical-offset="208" max-vertical-offset="782">
-          <folding>
-            <element signature="e#719#720#0" expanded="true" />
-            <element signature="e#752#753#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-19/android.jar!/android/app/ListActivity.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="49" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidKnoMar/src/main/res/menu/select_user_bar.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="3" selection-start="110" selection-end="255" vertical-scroll-proportion="0.11467116" vertical-offset="0" max-vertical-offset="593">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidKnoMar/src/main/res/layout/fragment_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="1293" selection-end="1293" vertical-scroll-proportion="0.6238532" vertical-offset="0" max-vertical-offset="872">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidKnoMar/src/main/res/menu/show_tweets_bar.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="41" selection-start="134" selection-end="148" vertical-scroll-proportion="0.07580825" vertical-offset="0" max-vertical-offset="897">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-19/android.jar!/android/app/Instrumentation.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="32" selection-start="4739" selection-end="4739" vertical-scroll-proportion="0.0" vertical-offset="1376" max-vertical-offset="2720">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidKnoMar/src/main/java/com/example/androidknomar/view/ViewTweets.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="47" selection-start="1001" selection-end="1001" vertical-scroll-proportion="0.0" vertical-offset="393" max-vertical-offset="2193">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1347#1353#0" expanded="true" />
-            <element signature="e#1453#1460#0" expanded="true" />
-            <element signature="e#1746#1951#0" expanded="true" />
-            <element signature="e#1940#1941#0" expanded="true" />
-            <element signature="e#2067#2265#0" expanded="true" />
-            <element signature="e#2254#2255#0" expanded="true" />
-            <element signature="e#3060#3066#0" expanded="true" />
-            <element signature="e#3311#3318#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-19/android.jar!/android/app/Activity.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="117" column="16" selection-start="4387" selection-end="4387" vertical-scroll-proportion="3.8291261" vertical-offset="0" max-vertical-offset="7565">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidKnoMar/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="36" selection-start="198" selection-end="198" vertical-scroll-proportion="-2.04" vertical-offset="0" max-vertical-offset="238">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AndroidKnoMar/src/main/res/layout/activity_tweets.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="36" selection-start="318" selection-end="334" vertical-scroll-proportion="-5.44" vertical-offset="0" max-vertical-offset="255">
+        <state line="8" column="36" selection-start="318" selection-end="334" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="255">
           <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidKnoMar/src/main/java/com/example/androidknomar/view/ViewUsers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="0" selection-start="822" selection-end="822" vertical-scroll-proportion="0.33266932" vertical-offset="224" max-vertical-offset="1139">
-          <folding>
-            <element signature="e#1080#1086#0" expanded="true" />
-            <element signature="e#1396#1748#0" expanded="true" />
-            <element signature="e#1737#1738#0" expanded="true" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidKnoMar/src/main/ic_launcher-web.png">
@@ -1229,23 +1095,9 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidKnoMar/src/main/java/com/example/androidknomar/controller/LoadWorldAsyncTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="0" selection-start="1087" selection-end="1087" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1088">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidKnoMar/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="17" selection-start="497" selection-end="497" vertical-scroll-proportion="0.48295453" vertical-offset="0" max-vertical-offset="578">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AndroidKnoMar/src/main/res/layout/activity_users.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="491" selection-end="491" vertical-scroll-proportion="-8.84" vertical-offset="0" max-vertical-offset="357">
+        <state line="13" column="0" selection-start="491" selection-end="491" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="357">
           <folding />
         </state>
       </provider>
@@ -1253,10 +1105,102 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidKnoMar/src/main/java/com/example/androidknomar/controller/LoadWorldAsyncTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="0" selection-start="1104" selection-end="1104" vertical-scroll-proportion="0.31772575" vertical-offset="208" max-vertical-offset="1105">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidKnoMar/src/main/java/com/example/androidknomar/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="0" selection-start="804" selection-end="804" vertical-scroll-proportion="0.53065777" vertical-offset="0" max-vertical-offset="897">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/AndroidKnoMar/src/main/java/com/example/androidknomar/view/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="849" selection-end="849" vertical-scroll-proportion="0.5151515" vertical-offset="0" max-vertical-offset="1054">
+        <state line="28" column="0" selection-start="849" selection-end="849" vertical-scroll-proportion="0.0" vertical-offset="157" max-vertical-offset="1054">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidKnoMar/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="146" selection-end="146" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="594">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="58" selection-start="480" selection-end="480" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidKnoMarProject.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="578" selection-end="578" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidKnoMar/src/main/res/menu/select_user_bar.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="38" selection-start="134" selection-end="145" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-19/android.jar!/android/content/Intent.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="268" column="11" selection-start="22581" selection-end="22581" vertical-scroll-proportion="0.33203885" vertical-offset="4368" max-vertical-offset="9418">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidKnoMar/src/main/res/menu/show_tweets_bar.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="43" selection-start="286" selection-end="302" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidKnoMar/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="50" selection-start="926" selection-end="926" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidKnoMar/src/main/java/com/example/androidknomar/view/ViewUsers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="65" selection-start="999" selection-end="1031" vertical-scroll-proportion="0.0" vertical-offset="206" max-vertical-offset="1105">
+          <folding>
+            <element signature="e#953#959#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidKnoMar/src/main/java/com/example/androidknomar/view/ViewTweets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="0" selection-start="1367" selection-end="1367" vertical-scroll-proportion="0.33333334" vertical-offset="436" max-vertical-offset="2006">
+          <folding>
+            <element signature="e#2406#2412#0" expanded="true" />
+            <element signature="e#2722#2729#0" expanded="true" />
+            <element signature="e#2940#2946#0" expanded="true" />
+            <element signature="e#3256#3263#0" expanded="true" />
+            <element signature="e#3565#3572#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
