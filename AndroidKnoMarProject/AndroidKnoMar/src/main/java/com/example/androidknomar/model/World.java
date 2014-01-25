@@ -9,7 +9,6 @@ import java.util.List;
 public class World implements Serializable
 {
     private List<User> listUser;
-    private List<Tweet> listTweet;
 
     public World(){}
 
@@ -21,19 +20,4 @@ public class World implements Serializable
         listUser = users;
     }
 
-    public List<Tweet> getTweets() {
-        return listTweet;
-    }
-
-    public void setTweets(List<Tweet> tweets) {
-        listTweet = tweets;
-    }
-
-    public void addTweets(List<Tweet> tweets){
-        if(listTweet == null){
-            listTweet = tweets;
-        }else{
-            listTweet.addAll(tweets);
-        }
-    }
 }
