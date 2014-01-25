@@ -1,0 +1,26 @@
+# incremental data. DO NOT EDIT.
+# format is <lastModified> <length> <SHA-1> <path>
+# Encoding is UTF-8
+1390687590209 4567 07b4c942ee1dc0c68fa8c94f6911efb001d4eaec G:\INFORMATIQUE\TA\Android\Projet\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\controller\LoadWorldAsyncTask.class
+1390676167983 1844 167a804c080df2db350cb02e867cd65d662e99ff G:\INFORMATIQUE\TA\Android\Projet\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\model\Tweet.class
+1390678800114 994 0dfcb2efb3a117100abfc6f2115b1b4785d3d778 G:\INFORMATIQUE\TA\Android\Projet\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\model\World.class
+1390676168134 511 2cd92a3e66b1fb69a3eda62f0db7dd0dcfdde1e7 G:\INFORMATIQUE\TA\Android\Projet\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\R$drawable.class
+1390676168135 569 8163b0fc40b2eec2a4322012daa4677806a14c29 G:\INFORMATIQUE\TA\Android\Projet\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\R$id.class
+1390676167985 338 0a493177022c8ab9a97d86a36507d768a75a1d0a G:\INFORMATIQUE\TA\Android\Projet\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\controller\TmpController.class
+1390676168019 1655 30fdd822af732c73324b42c4c738de593a8eb0dd G:\INFORMATIQUE\TA\Android\Projet\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\util\MySimpleArrayAdapter.class
+1390676168145 480 07aa1b014628b5ad882f45879c42ca03c0c49474 G:\INFORMATIQUE\TA\Android\Projet\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\BuildConfig.class
+1390677177034 1753 adb2abf11b45f92a459ac92f38d4015b7a56825b G:\INFORMATIQUE\TA\Android\Projet\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\model\User.class
+1390676168136 570 26c3a0d135f0af632be39ca2ffa49502134e01fb G:\INFORMATIQUE\TA\Android\Projet\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\R$layout.class
+1390676168090 1651 74369b1bcafaa172130e8386830cd04a327f7a49 G:\INFORMATIQUE\TA\Android\Projet\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\view\MainActivity.class
+1390676168139 493 45854db7633d1de68857096e1bd830205d319a5b G:\INFORMATIQUE\TA\Android\Projet\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\R$string.class
+1390676168126 2698 b08f9581d61b954863a6460ae15fb27b405d3f2a G:\INFORMATIQUE\TA\Android\Projet\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\view\ViewUsers.class
+1390678359062 3008 300145fc825d738cea916c0d729c652727258309 G:\INFORMATIQUE\TA\Android\Projet\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\util\UserParser.class
+1390676168131 361 37dd1e813b3c7d5a96aa79aafa117127553798b9 G:\INFORMATIQUE\TA\Android\Projet\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\R$attr.class
+1390676168003 2547 e60722bb701030dd63fe36719cefe999d5ecf550 G:\INFORMATIQUE\TA\Android\Projet\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\util\AbstractParser.class
+1390676168137 409 9d2afdffbf0066b408ab265a200e7dce28b1ae20 G:\INFORMATIQUE\TA\Android\Projet\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\R$menu.class
+1390676168038 477 8824834a52730f6e9c0597cb564e63d7d69ae407 G:\INFORMATIQUE\TA\Android\Projet\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\util\URL.class
+1390676168140 416 363ab844598b46c965dd53ca8400c8590a2406b3 G:\INFORMATIQUE\TA\Android\Projet\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\R$style.class
+1390676168087 963 302783e0c5dd436e7a37047d94ffb09d5f133dce G:\INFORMATIQUE\TA\Android\Projet\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\view\MainActivity$PlaceholderFragment.class
+1390684972664 3129 90f89b5afb19af9d3b816ca460c6cddc0237d168 G:\INFORMATIQUE\TA\Android\Projet\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\util\TweetParser.class
+1390676168133 482 2f057641da9dd55c893e9d4b4485c8e0fa7f68b2 G:\INFORMATIQUE\TA\Android\Projet\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\R$dimen.class
+1390676168142 747 2c9ee75cd6099cf7e749125e4a31b19b1031568d G:\INFORMATIQUE\TA\Android\Projet\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\R.class
