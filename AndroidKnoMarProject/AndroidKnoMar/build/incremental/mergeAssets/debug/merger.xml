@@ -2,10 +2,10 @@
 <merger>
 
     <dataSet config="main" >
-        <source path="C:\Docs michel\Projet Android\workspace\AndroidKnoMarProject\AndroidKnoMar\src\main\assets" />
+        <source path="C:\Users\mknoertzer.STARWARS\AndroidStudioProjects\AndroidKnoMarProject\AndroidKnoMar\src\main\assets" />
     </dataSet>
     <dataSet config="debug" >
-        <source path="C:\Docs michel\Projet Android\workspace\AndroidKnoMarProject\AndroidKnoMar\src\debug\assets" />
+        <source path="C:\Users\mknoertzer.STARWARS\AndroidStudioProjects\AndroidKnoMarProject\AndroidKnoMar\src\debug\assets" />
     </dataSet>
 
 </merger>
