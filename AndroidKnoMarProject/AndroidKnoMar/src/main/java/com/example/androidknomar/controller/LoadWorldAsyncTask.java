@@ -27,15 +27,16 @@ public class LoadWorldAsyncTask extends AsyncTask<Void, Integer, World> {
     @Override
     protected World doInBackground(Void... voids) {
         // TODO Michel see URL.USERS
+        World world = null;
         try {
             UserParser userparser = new UserParser();
-            World world = World.instance;
+            world = World.instance;
             world.setUsers(userparser.loadAndParseUsersFile());
 
         } catch(Exception e) {
             e.printStackTrace();
         }
-        return null;
+        return world;
     }
 
     @Override
