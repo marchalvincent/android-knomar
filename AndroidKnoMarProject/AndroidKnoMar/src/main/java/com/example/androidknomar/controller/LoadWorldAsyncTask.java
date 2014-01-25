@@ -35,25 +35,7 @@ public class LoadWorldAsyncTask extends AsyncTask<Void, Integer, World> {
         try {
             UserParser userparser = new UserParser();
             world = World.instance;
-            world.setUsers(userparser.loadAndParseUsersFile());
-
-            /*
-            TweetParser parser;
-            for(User user : world.getUsers())
-            {
-                parser = new TweetParser(user);
-                List<Tweet> list =  parser.loadAndParseTweetFile();
-                for (Tweet tweet : list)
-                {
-                    Log.e("",tweet.getDate());
-                    Log.e("",tweet.getHashtag());
-                    Log.e("",tweet.getMessage());
-                    Log.e("",tweet.getUser().toString());
-                    Log.e("",tweet.getUrl().toString());
-                }
-
-            }
-            */
+            world.loadWorld(userparser.loadAndParseUsersFile());
 
         } catch(Exception e) {
             e.printStackTrace();

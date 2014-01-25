@@ -1,5 +1,7 @@
 package com.example.androidknomar.model;
 
+import com.example.androidknomar.util.TweetParser;
+
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
@@ -22,8 +24,16 @@ public class World implements Serializable
         return listUser;
     }
 
-    public void setUsers(List<User> users) {
+    public void loadWorld(List<User> users) throws Exception
+    {
         listUser = users;
+
+        TweetParser parser;
+        for(User user : listUser)
+        {
+            parser = new TweetParser(user);
+            user.setListTweet(parser.loadAndParseTweetFile());
+        }
     }
 
 }
