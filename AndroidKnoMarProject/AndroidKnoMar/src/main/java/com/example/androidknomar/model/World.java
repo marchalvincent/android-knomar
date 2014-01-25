@@ -1,6 +1,7 @@
 package com.example.androidknomar.model;
 
 import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -12,9 +13,12 @@ public class World implements Serializable
 
     private List<User> listUser;
 
-    private World(){}
+    private World(){
+        listUser = new ArrayList<User>();
+    }
 
-    public List<User> getUsers() {
+    public List<User> getUsers()
+    {
         return listUser;
     }
 

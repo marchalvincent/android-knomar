@@ -63,7 +63,7 @@ public class UserParser extends AbstractParser
 
                     case XmlPullParser.END_TAG :
                         currentElem = "";
-                        if(xmlPullParser.getName().equals(Tweet.CONST_TWEET)){
+                        if(xmlPullParser.getName().equals(User.CONST_USER)){
                             listUser.add(currentUser);
                             currentUser = null;
                         }
@@ -89,13 +89,18 @@ public class UserParser extends AbstractParser
 
     public void parseText(XmlPullParser xmlPullParser) throws Exception {
         try {
-            String value = xmlPullParser.getText();
-            if(currentElem.equals(User.CONST_NAME)){
-                currentUser.setName( value.replaceAll("\n+",""));
-            }else if(currentElem.equals("url")){
-                currentUser.setUri( new URI(value.replaceAll("\\s+","")) );
+            if(currentElem.equals(User.CONST_NAME))
+            {
+                String value = xmlPullParser.getText().replaceAll("\n+","");
+                currentUser.setName(value);
             }
-        } catch (Exception e) {
+            else if(currentElem.equals(User.CONST_URL))
+            {
+                URI tmpUri = new URI(xmlPullParser.getText().replaceAll("\\s+",""));
+                currentUser.setUri(tmpUri);
+            }
+
+        } catch (Exception ex) {
             throw new Exception("Error Parsing user : " + currentUser.getName());
 
         }
