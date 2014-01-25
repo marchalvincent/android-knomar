@@ -1,4 +1,4 @@
-package com.example.androidknomar;
+package com.example.androidknomar.view;
 
 import android.app.Activity;
 import android.app.ActionBar;
@@ -10,6 +10,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.os.Build;
+
+import com.example.androidknomar.R;
 
 public class MainActivity extends Activity {
 
