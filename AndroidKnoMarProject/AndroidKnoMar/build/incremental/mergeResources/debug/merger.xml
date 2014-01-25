@@ -2,119 +2,119 @@
 <merger>
 
     <dataSet config="main" >
-        <source path="C:\Users\mknoertzer.STARWARS\AndroidStudioProjects\AndroidKnoMarProject\AndroidKnoMar\src\main\res" >
+        <source path="G:\INFORMATIQUE\TA\Android\Projet\AndroidKnoMarProject\AndroidKnoMar\src\main\res" >
             <file
                 name="ic_launcher"
-                path="C:\Users\mknoertzer.STARWARS\AndroidStudioProjects\AndroidKnoMarProject\AndroidKnoMar\src\main\res\drawable-hdpi\ic_launcher.png"
+                path="G:\INFORMATIQUE\TA\Android\Projet\AndroidKnoMarProject\AndroidKnoMar\src\main\res\drawable-hdpi\ic_launcher.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="no"
-                path="C:\Users\mknoertzer.STARWARS\AndroidStudioProjects\AndroidKnoMarProject\AndroidKnoMar\src\main\res\drawable-hdpi\no.png"
+                path="G:\INFORMATIQUE\TA\Android\Projet\AndroidKnoMarProject\AndroidKnoMar\src\main\res\drawable-hdpi\no.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="ok"
-                path="C:\Users\mknoertzer.STARWARS\AndroidStudioProjects\AndroidKnoMarProject\AndroidKnoMar\src\main\res\drawable-hdpi\ok.png"
+                path="G:\INFORMATIQUE\TA\Android\Projet\AndroidKnoMarProject\AndroidKnoMar\src\main\res\drawable-hdpi\ok.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="welcome"
-                path="C:\Users\mknoertzer.STARWARS\AndroidStudioProjects\AndroidKnoMarProject\AndroidKnoMar\src\main\res\drawable-hdpi\welcome.jpg"
+                path="G:\INFORMATIQUE\TA\Android\Projet\AndroidKnoMarProject\AndroidKnoMar\src\main\res\drawable-hdpi\welcome.jpg"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="C:\Users\mknoertzer.STARWARS\AndroidStudioProjects\AndroidKnoMarProject\AndroidKnoMar\src\main\res\drawable-mdpi\ic_launcher.png"
+                path="G:\INFORMATIQUE\TA\Android\Projet\AndroidKnoMarProject\AndroidKnoMar\src\main\res\drawable-mdpi\ic_launcher.png"
                 qualifiers="mdpi"
                 type="drawable" />
             <file
                 name="no"
-                path="C:\Users\mknoertzer.STARWARS\AndroidStudioProjects\AndroidKnoMarProject\AndroidKnoMar\src\main\res\drawable-mdpi\no.png"
+                path="G:\INFORMATIQUE\TA\Android\Projet\AndroidKnoMarProject\AndroidKnoMar\src\main\res\drawable-mdpi\no.png"
                 qualifiers="mdpi"
                 type="drawable" />
             <file
                 name="ok"
-                path="C:\Users\mknoertzer.STARWARS\AndroidStudioProjects\AndroidKnoMarProject\AndroidKnoMar\src\main\res\drawable-mdpi\ok.png"
+                path="G:\INFORMATIQUE\TA\Android\Projet\AndroidKnoMarProject\AndroidKnoMar\src\main\res\drawable-mdpi\ok.png"
                 qualifiers="mdpi"
                 type="drawable" />
             <file
                 name="welcome"
-                path="C:\Users\mknoertzer.STARWARS\AndroidStudioProjects\AndroidKnoMarProject\AndroidKnoMar\src\main\res\drawable-mdpi\welcome.jpg"
+                path="G:\INFORMATIQUE\TA\Android\Projet\AndroidKnoMarProject\AndroidKnoMar\src\main\res\drawable-mdpi\welcome.jpg"
                 qualifiers="mdpi"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="C:\Users\mknoertzer.STARWARS\AndroidStudioProjects\AndroidKnoMarProject\AndroidKnoMar\src\main\res\drawable-xhdpi\ic_launcher.png"
+                path="G:\INFORMATIQUE\TA\Android\Projet\AndroidKnoMarProject\AndroidKnoMar\src\main\res\drawable-xhdpi\ic_launcher.png"
                 qualifiers="xhdpi"
                 type="drawable" />
             <file
                 name="no"
-                path="C:\Users\mknoertzer.STARWARS\AndroidStudioProjects\AndroidKnoMarProject\AndroidKnoMar\src\main\res\drawable-xhdpi\no.png"
+                path="G:\INFORMATIQUE\TA\Android\Projet\AndroidKnoMarProject\AndroidKnoMar\src\main\res\drawable-xhdpi\no.png"
                 qualifiers="xhdpi"
                 type="drawable" />
             <file
                 name="ok"
-                path="C:\Users\mknoertzer.STARWARS\AndroidStudioProjects\AndroidKnoMarProject\AndroidKnoMar\src\main\res\drawable-xhdpi\ok.png"
+                path="G:\INFORMATIQUE\TA\Android\Projet\AndroidKnoMarProject\AndroidKnoMar\src\main\res\drawable-xhdpi\ok.png"
                 qualifiers="xhdpi"
                 type="drawable" />
             <file
                 name="welcome"
-                path="C:\Users\mknoertzer.STARWARS\AndroidStudioProjects\AndroidKnoMarProject\AndroidKnoMar\src\main\res\drawable-xhdpi\welcome.jpg"
+                path="G:\INFORMATIQUE\TA\Android\Projet\AndroidKnoMarProject\AndroidKnoMar\src\main\res\drawable-xhdpi\welcome.jpg"
                 qualifiers="xhdpi"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="C:\Users\mknoertzer.STARWARS\AndroidStudioProjects\AndroidKnoMarProject\AndroidKnoMar\src\main\res\drawable-xxhdpi\ic_launcher.png"
+                path="G:\INFORMATIQUE\TA\Android\Projet\AndroidKnoMarProject\AndroidKnoMar\src\main\res\drawable-xxhdpi\ic_launcher.png"
                 qualifiers="xxhdpi"
                 type="drawable" />
             <file
                 name="no"
-                path="C:\Users\mknoertzer.STARWARS\AndroidStudioProjects\AndroidKnoMarProject\AndroidKnoMar\src\main\res\drawable-xxhdpi\no.png"
+                path="G:\INFORMATIQUE\TA\Android\Projet\AndroidKnoMarProject\AndroidKnoMar\src\main\res\drawable-xxhdpi\no.png"
                 qualifiers="xxhdpi"
                 type="drawable" />
             <file
                 name="ok"
-                path="C:\Users\mknoertzer.STARWARS\AndroidStudioProjects\AndroidKnoMarProject\AndroidKnoMar\src\main\res\drawable-xxhdpi\ok.png"
+                path="G:\INFORMATIQUE\TA\Android\Projet\AndroidKnoMarProject\AndroidKnoMar\src\main\res\drawable-xxhdpi\ok.png"
                 qualifiers="xxhdpi"
                 type="drawable" />
             <file
                 name="welcome"
-                path="C:\Users\mknoertzer.STARWARS\AndroidStudioProjects\AndroidKnoMarProject\AndroidKnoMar\src\main\res\drawable-xxhdpi\welcome.jpg"
+                path="G:\INFORMATIQUE\TA\Android\Projet\AndroidKnoMarProject\AndroidKnoMar\src\main\res\drawable-xxhdpi\welcome.jpg"
                 qualifiers="xxhdpi"
                 type="drawable" />
             <file
                 name="activity_main"
-                path="C:\Users\mknoertzer.STARWARS\AndroidStudioProjects\AndroidKnoMarProject\AndroidKnoMar\src\main\res\layout\activity_main.xml"
+                path="G:\INFORMATIQUE\TA\Android\Projet\AndroidKnoMarProject\AndroidKnoMar\src\main\res\layout\activity_main.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="activity_users"
-                path="C:\Users\mknoertzer.STARWARS\AndroidStudioProjects\AndroidKnoMarProject\AndroidKnoMar\src\main\res\layout\activity_users.xml"
+                path="G:\INFORMATIQUE\TA\Android\Projet\AndroidKnoMarProject\AndroidKnoMar\src\main\res\layout\activity_users.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="fragment_main"
-                path="C:\Users\mknoertzer.STARWARS\AndroidStudioProjects\AndroidKnoMarProject\AndroidKnoMar\src\main\res\layout\fragment_main.xml"
+                path="G:\INFORMATIQUE\TA\Android\Projet\AndroidKnoMarProject\AndroidKnoMar\src\main\res\layout\fragment_main.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="fragment_users"
-                path="C:\Users\mknoertzer.STARWARS\AndroidStudioProjects\AndroidKnoMarProject\AndroidKnoMar\src\main\res\layout\fragment_users.xml"
+                path="G:\INFORMATIQUE\TA\Android\Projet\AndroidKnoMarProject\AndroidKnoMar\src\main\res\layout\fragment_users.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="rowlayout"
-                path="C:\Users\mknoertzer.STARWARS\AndroidStudioProjects\AndroidKnoMarProject\AndroidKnoMar\src\main\res\layout\rowlayout.xml"
+                path="G:\INFORMATIQUE\TA\Android\Projet\AndroidKnoMarProject\AndroidKnoMar\src\main\res\layout\rowlayout.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="main"
-                path="C:\Users\mknoertzer.STARWARS\AndroidStudioProjects\AndroidKnoMarProject\AndroidKnoMar\src\main\res\menu\main.xml"
+                path="G:\INFORMATIQUE\TA\Android\Projet\AndroidKnoMarProject\AndroidKnoMar\src\main\res\menu\main.xml"
                 qualifiers=""
                 type="menu" />
             <file
-                path="C:\Users\mknoertzer.STARWARS\AndroidStudioProjects\AndroidKnoMarProject\AndroidKnoMar\src\main\res\values\dimens.xml"
+                path="G:\INFORMATIQUE\TA\Android\Projet\AndroidKnoMarProject\AndroidKnoMar\src\main\res\values\dimens.xml"
                 qualifiers="" >
                 <dimen name="activity_horizontal_margin" >16dp
                 </dimen>
@@ -122,7 +122,7 @@
                 </dimen>
             </file>
             <file
-                path="C:\Users\mknoertzer.STARWARS\AndroidStudioProjects\AndroidKnoMarProject\AndroidKnoMar\src\main\res\values\strings.xml"
+                path="G:\INFORMATIQUE\TA\Android\Projet\AndroidKnoMarProject\AndroidKnoMar\src\main\res\values\strings.xml"
                 qualifiers="" >
                 <string name="action_settings" >Settings
                 </string>
@@ -132,7 +132,7 @@
                 </string>
             </file>
             <file
-                path="C:\Users\mknoertzer.STARWARS\AndroidStudioProjects\AndroidKnoMarProject\AndroidKnoMar\src\main\res\values\styles.xml"
+                path="G:\INFORMATIQUE\TA\Android\Projet\AndroidKnoMarProject\AndroidKnoMar\src\main\res\values\styles.xml"
                 qualifiers="" >
 
                 <style
@@ -143,16 +143,16 @@
                 </style>
             </file>
             <file
-                path="C:\Users\mknoertzer.STARWARS\AndroidStudioProjects\AndroidKnoMarProject\AndroidKnoMar\src\main\res\values-w820dp\dimens.xml"
+                path="G:\INFORMATIQUE\TA\Android\Projet\AndroidKnoMarProject\AndroidKnoMar\src\main\res\values-w820dp\dimens.xml"
                 qualifiers="w820dp" >
                 <dimen name="activity_horizontal_margin" >64dp
                 </dimen>
             </file>
         </source>
-        <source path="C:\Users\mknoertzer.STARWARS\AndroidStudioProjects\AndroidKnoMarProject\AndroidKnoMar\build\res\rs\debug" />
+        <source path="G:\INFORMATIQUE\TA\Android\Projet\AndroidKnoMarProject\AndroidKnoMar\build\res\rs\debug" />
     </dataSet>
     <dataSet config="debug" >
-        <source path="C:\Users\mknoertzer.STARWARS\AndroidStudioProjects\AndroidKnoMarProject\AndroidKnoMar\src\debug\res" />
+        <source path="G:\INFORMATIQUE\TA\Android\Projet\AndroidKnoMarProject\AndroidKnoMar\src\debug\res" />
     </dataSet>
 
 </merger>
