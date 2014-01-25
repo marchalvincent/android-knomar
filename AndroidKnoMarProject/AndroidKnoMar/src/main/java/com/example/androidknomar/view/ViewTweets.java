@@ -105,25 +105,22 @@ public class ViewTweets extends ListActivity {
 
     private void showListUser() {
         ArrayAdapter<User> array = new ArrayAdapter<User>(this,
-                android.R.layout.simple_list_item_multiple_choice,
+                android.R.layout.simple_list_item_1,
                 getFollowedUsers());
         setListAdapter(array);
-        getListView().setChoiceMode(ListView.CHOICE_MODE_NONE);
     }
 
     private void showUserTweets(User user) {
         ArrayAdapter<Tweet> array = new ArrayAdapter<Tweet>(this,
-                android.R.layout.simple_list_item_multiple_choice,
+                android.R.layout.simple_list_item_1,
                 user.getListTweet());
         setListAdapter(array);
-        getListView().setChoiceMode(ListView.CHOICE_MODE_NONE);
     }
 
     private void showListTweets() {
         ArrayAdapter<Tweet> array = new ArrayAdapter<Tweet>(this,
-                android.R.layout.simple_list_item_multiple_choice,
+                android.R.layout.simple_list_item_1,
                 this.getFollowedUsersTweets());
         setListAdapter(array);
-        getListView().setChoiceMode(ListView.CHOICE_MODE_NONE);
     }
 }
