@@ -1,9 +1,11 @@
 package com.example.androidknomar.view;
 
 import android.app.ListActivity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
@@ -39,52 +41,12 @@ public class ViewTweets extends ListActivity {
         super.onCreate(icicle);
 
         setContentView(R.layout.activity_tweets);
-/*
-        List<User> users = new ArrayList<User>();
-        for(User u : world.getUsers()) {
-            if (u.isFollowed()) {
-                users.add(u);
-            }
-        }
-*/
-        User a = new User();
-        a.setName("toto");
-        User b = new User();
-        b.setName("tata");
-        final List<User> users = new ArrayList<User>();
-        users.add(a);
-        users.add(b);
 
-        final List<Tweet> allTweets = new ArrayList<Tweet>();
-        for (User u : users) {
-            allTweets.addAll(u.getListTweet());
-        }
-
-        this.showListUser(users);
-
-        // set the action to the buttons
-        Button buttonTweets = (Button) findViewById(R.id.menu_show_tweets);
-        buttonTweets.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                // print tweets
-                viewTweets.showListTweets(allTweets);
-            }
-        });
-
-        Button buttonUsers = (Button) findViewById(R.id.menu_show_user);
-        buttonUsers.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                // print users
-                viewTweets.showListUser(users);
-            }
-        });
+        this.showListUser();
     }
 
     @Override
     protected void onListItemClick(ListView l, View v, int position, long id) {
-        // TODO
         Object o = l.getItemAtPosition(position);
         if (o instanceof User) {
             // need to display the tweets of the user
@@ -105,19 +67,63 @@ public class ViewTweets extends ListActivity {
         return true;
     }
 
-    private void showListUser(List<User> users) {
-        ArrayAdapter<User> array = new ArrayAdapter<User>(this, android.R.layout.list_content, users);
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle presses on the action bar items
+        switch (item.getItemId()) {
+            case R.id.menu_show_user:
+                // go to the next activity
+                this.showListUser();
+                return true;
+            case R.id.menu_show_tweets:
+                // go to the next activity
+                this.showListTweets();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+    }
+
+    private List<User> getFollowedUsers() {
+        List<User> users = new ArrayList<User>();
+        for(User u : world.getUsers()) {
+            if (u.isFollowed()) {
+                users.add(u);
+            }
+        }
+        return users;
+    }
+
+    private List<Tweet> getFollowedUsersTweets() {
+        List<User> users = this.getFollowedUsers();
+        List<Tweet> allTweets = new ArrayList<Tweet>();
+        for (User u : users) {
+            allTweets.addAll(u.getListTweet());
+        }
+        return allTweets;
+    }
+
+    private void showListUser() {
+        ArrayAdapter<User> array = new ArrayAdapter<User>(this,
+                android.R.layout.simple_list_item_multiple_choice,
+                getFollowedUsers());
         setListAdapter(array);
         getListView().setChoiceMode(ListView.CHOICE_MODE_NONE);
     }
 
     private void showUserTweets(User user) {
-        ArrayAdapter<Tweet> array = new ArrayAdapter<Tweet>(this, android.R.layout.list_content, user.getListTweet());
+        ArrayAdapter<Tweet> array = new ArrayAdapter<Tweet>(this,
+                android.R.layout.simple_list_item_multiple_choice,
+                user.getListTweet());
         setListAdapter(array);
         getListView().setChoiceMode(ListView.CHOICE_MODE_NONE);
     }
 
-    private void showListTweets(List<Tweet> tweets) {
-
+    private void showListTweets() {
+        ArrayAdapter<Tweet> array = new ArrayAdapter<Tweet>(this,
+                android.R.layout.simple_list_item_multiple_choice,
+                this.getFollowedUsersTweets());
+        setListAdapter(array);
+        getListView().setChoiceMode(ListView.CHOICE_MODE_NONE);
     }
 }
