@@ -27,19 +27,13 @@ public class MainActivity extends Activity {
                     .commit();
         }
 
-        // TODO charger les XMLs
-        LoadWorldAsyncTask loader = new LoadWorldAsyncTask(this);
-        loader.execute();
-
-
+        // charge les fichiers XML et lance la nouvelle activité
+        new LoadWorldAsyncTask(this).execute();
     }
 
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.main, menu);
         return true;
     }
 

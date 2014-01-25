@@ -19,6 +19,7 @@ import android.widget.ListView;
 import android.widget.Toast;
 
 import com.example.androidknomar.R;
+import com.example.androidknomar.model.User;
 import com.example.androidknomar.model.World;
 import com.example.androidknomar.util.MySimpleArrayAdapter;
 
@@ -28,13 +29,10 @@ import com.example.androidknomar.util.MySimpleArrayAdapter;
 public class ViewUsers extends ListActivity {
 
     private World world;
-    private String[] values = new String[] { "Android", "iPhone", "WindowsMobile",
-            "Blackberry", "WebOS", "Ubuntu", "Windows7", "Max OS X",
-            "Linux", "OS/2" };
 
     public ViewUsers() {
         super();
-
+        world = World.instance;
     }
 
     protected Object mActionMode;
@@ -44,75 +42,28 @@ public class ViewUsers extends ListActivity {
         super.onCreate(icicle);
 
         setContentView(R.layout.activity_users);
-        String[] values = new String[] { "Android", "iPhone", "WindowsMobile",
-                "Blackberry", "WebOS", "Ubuntu", "Windows7", "Max OS X",
-                "Linux", "OS/2", "Ubuntu", "Windows7", "Max OS X", "Linux",
-                "OS/2", "Ubuntu", "Windows7", "Max OS X", "Linux", "OS/2" };
 
-        MySimpleArrayAdapter adapter = new MySimpleArrayAdapter(this, values);
-        setListAdapter(adapter);
+        User a = new User();
+        a.setName("toto");
+        User b = new User();
+        b.setName("tata");
+        User[] users = new User[] { a, b };
 
-        getListView().setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
-
-            @Override
-            public boolean onItemLongClick(AdapterView<?> parent, View view,
-                                           int position, long id) {
-
-                if (mActionMode != null) {
-                    return false;
-                }
-                selectedItem = position;
-
-                // start the CAB using the ActionMode.Callback defined above
-                mActionMode = ViewUsers.this
-                        .startActionMode(mActionModeCallback);
-                view.setSelected(true);
-                return true;
-            }
-        });
+        ArrayAdapter<User> array = new ArrayAdapter<User>(this, android.R.layout.simple_list_item_multiple_choice, users);
+        setListAdapter(array);
+        getListView().setChoiceMode(ListView.CHOICE_MODE_MULTIPLE);
     }
 
-    private ActionMode.Callback mActionModeCallback = new ActionMode.Callback() {
+    @Override
+    protected void onListItemClick(ListView l, View v, int position, long id) {
+        User user = (User) l.getItemAtPosition(position);
+        user.setIsFollowed(!user.isFollowed());
+        Log.e("Salut", user.getName() + " " + user.isFollowed());
+    }
 
-        // called when the action mode is created; startActionMode() was called
-        public boolean onCreateActionMode(ActionMode mode, Menu menu) {
-            // Inflate a menu resource providing context menu items
-            MenuInflater inflater = mode.getMenuInflater();
-            // assumes that you have "contexual.xml" menu resources
-            inflater.inflate(R.menu.rowselection, menu);
-            return true;
-        }
-
-        // the following method is called each time
-        // the action mode is shown. Always called after
-        // onCreateActionMode, but
-        // may be called multiple times if the mode is invalidated.
-        public boolean onPrepareActionMode(ActionMode mode, Menu menu) {
-            return false; // Return false if nothing is done
-        }
-
-        // called when the user selects a contextual menu item
-        public boolean onActionItemClicked(ActionMode mode, MenuItem item) {
-            switch (item.getItemId()) {
-                case R.id.menuitem1_show:
-                    show();
-                    // the Action was executed, close the CAB
-                    mode.finish();
-                    return true;
-                default:
-                    return false;
-            }
-        }
-
-        // called when the user exits the action mode
-        public void onDestroyActionMode(ActionMode mode) {
-            mActionMode = null;
-            selectedItem = -1;
-        }
-    };
-
-    private void show() {
-        Toast.makeText(ViewUsers.this,
-                String.valueOf(selectedItem), Toast.LENGTH_LONG).show();
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.main, menu);
+        return true;
     }
 }

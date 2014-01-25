@@ -8,9 +8,11 @@ import java.util.List;
  */
 public class World implements Serializable
 {
+    public static World instance = new World();
+
     private List<User> listUser;
 
-    public World(){}
+    private World(){}
 
     public List<User> getUsers() {
         return listUser;
