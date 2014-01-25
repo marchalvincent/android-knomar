@@ -9,6 +9,9 @@ import java.util.List;
  */
 public class User implements Serializable
 {
+    public static final String CONST_USER = "user";
+    public static final String CONST_NAME = "name";
+
     private String name;
     private URI uri;
     private boolean isFollowed = false;
