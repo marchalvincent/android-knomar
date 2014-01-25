@@ -1,27 +1,19 @@
 package com.example.androidknomar.view;
 
-import android.app.Fragment;
 import android.app.ListActivity;
-import android.app.ListFragment;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.ActionMode;
-import android.view.LayoutInflater;
 import android.view.Menu;
-import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.ViewGroup;
-import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ListView;
-import android.widget.Toast;
 
 import com.example.androidknomar.R;
 import com.example.androidknomar.model.User;
 import com.example.androidknomar.model.World;
-import com.example.androidknomar.util.MySimpleArrayAdapter;
 
 /**
  * Created by marchal.vincent on 25/01/14.
@@ -32,6 +24,7 @@ public class ViewUsers extends ListActivity {
 
     public ViewUsers() {
         super();
+        //setTitle("Follow someone");
         world = World.instance;
     }
 
@@ -43,13 +36,9 @@ public class ViewUsers extends ListActivity {
 
         setContentView(R.layout.activity_users);
 
-        User a = new User();
-        a.setName("toto");
-        User b = new User();
-        b.setName("tata");
-        User[] users = new User[] { a, b };
-
-        ArrayAdapter<User> array = new ArrayAdapter<User>(this, android.R.layout.simple_list_item_multiple_choice, users);
+        ArrayAdapter<User> array = new ArrayAdapter<User>(this,
+                android.R.layout.simple_list_item_multiple_choice,
+                world.getUsers());
         setListAdapter(array);
         getListView().setChoiceMode(ListView.CHOICE_MODE_MULTIPLE);
     }
@@ -63,7 +52,21 @@ public class ViewUsers extends ListActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.main, menu);
+        getMenuInflater().inflate(R.menu.select_user_bar, menu);
         return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle presses on the action bar items
+        switch (item.getItemId()) {
+            case R.id.menu_follow:
+                // go to the next activity
+                Intent i = new Intent(this.getApplicationContext(), ViewTweets.class);
+                this.startActivity(i);
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
     }
 }
