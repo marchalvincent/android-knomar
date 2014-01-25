@@ -11,7 +11,23 @@
     <TextView
         android:text="@string/hello_world"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:id="@+id/textView"
+        android:textSize="24dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/welcome"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentBottom="true" />
 
 </RelativeLayout>
-<!-- From: file:/C:/Users/mknoertzer.STARWARS/AndroidStudioProjects/AndroidKnoMarProject/AndroidKnoMar/src/main/res/layout/fragment_main.xml -->
+<!-- From: file:/C:/workspace%20Android/Tweet/AndroidKnoMarProject/AndroidKnoMar/src/main/res/layout/fragment_main.xml -->
