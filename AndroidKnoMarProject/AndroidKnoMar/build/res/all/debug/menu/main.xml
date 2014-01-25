@@ -5,6 +5,6 @@
     <item android:id="@+id/action_settings"
         android:title="@string/action_settings"
         android:orderInCategory="100"
-        android:showAsAction="never" />
+        android:showAsAction="always" />
 </menu>
-<!-- From: file:/C:/workspace%20Android/Tweet/AndroidKnoMarProject/AndroidKnoMar/src/main/res/menu/main.xml -->
+<!-- From: file:/C:/Users/mknoertzer.STARWARS/AndroidStudioProjects/AndroidKnoMarProject/AndroidKnoMar/src/main/res/menu/main.xml -->

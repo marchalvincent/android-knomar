@@ -26,7 +26,6 @@ public final class R {
         public static final int icon=0x7f080003;
         public static final int imageView=0x7f080002;
         public static final int label=0x7f080004;
-        public static final int menuitem1_show=0x7f080006;
         public static final int textView=0x7f080001;
     }
     public static final class layout {
@@ -38,7 +37,6 @@ public final class R {
     }
     public static final class menu {
         public static final int main=0x7f070000;
-        public static final int rowselection=0x7f070001;
     }
     public static final class string {
         public static final int action_settings=0x7f050000;
