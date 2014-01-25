@@ -45,7 +45,7 @@ public class LoadWorldAsyncTask extends AsyncTask<Void, Integer, World> {
         System.out.println("Parsing xml finit");
         // on fait passer la page suivante
         activity.getFragmentManager().beginTransaction()
-                .replace(R.id.container, new ViewUsers())
+                .replace(R.id.container, new ViewUsers(result))
                 .commit();
     }
 

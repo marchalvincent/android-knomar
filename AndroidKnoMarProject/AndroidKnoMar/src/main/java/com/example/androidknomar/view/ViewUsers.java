@@ -7,13 +7,14 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.androidknomar.R;
+import com.example.androidknomar.model.World;
 
 /**
  * Created by marchal.vincent on 25/01/14.
  */
 public class ViewUsers extends Fragment {
 
-    public ViewUsers() {
+    public ViewUsers(World world) {
 
     }
 
