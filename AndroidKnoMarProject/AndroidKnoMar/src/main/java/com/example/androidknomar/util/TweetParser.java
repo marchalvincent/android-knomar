@@ -67,7 +67,7 @@ public class TweetParser extends AbstractParser {
                         break;
 
                     case XmlPullParser.TEXT :
-                        processText(xmlPullParser);
+                        parseText(xmlPullParser);
                         break;
 
                     default :
@@ -84,7 +84,7 @@ public class TweetParser extends AbstractParser {
         }
     }
 
-    public void processText(XmlPullParser xmlPullParser) throws Exception
+    public void parseText(XmlPullParser xmlPullParser) throws Exception
     {
         String value = xmlPullParser.getText();
         if (currentElem.equals(Tweet.CONST_HASHTAG)) {
