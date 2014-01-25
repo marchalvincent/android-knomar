@@ -86,21 +86,25 @@ public class TweetParser extends AbstractParser {
 
     public void parseText(XmlPullParser xmlPullParser) throws Exception
     {
-        String value = xmlPullParser.getText();
+        String value;
         if (currentElem.equals(Tweet.CONST_HASHTAG)) {
+            value = xmlPullParser.getText();
             currentTweet.setHashtag(value);
 
         } else if (currentElem.equals(Tweet.CONST_MESSAGE)) {
+            value = xmlPullParser.getText();
             currentTweet.setMessage(value);
 
         } else if (currentElem.equals(Tweet.CONST_DATE)) {
+            value = xmlPullParser.getText();
             currentTweet.setDate(value);
 
         } else if (currentElem.equals(Tweet.CONST_URL)) {
+            value = xmlPullParser.getText();
             currentTweet.setUrl(new URI(value));
 
         } else {
-            throw new Exception("Error Parser : this kind of message does not exist ! " + currentElem);
+            //throw new Exception("Error Parser : this kind of message does not exist ! " + currentElem);
         }
     }
 }
