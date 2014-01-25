@@ -1,0 +1,23 @@
+# incremental data. DO NOT EDIT.
+# format is <lastModified> <length> <SHA-1> <path>
+# Encoding is UTF-8
+1390653242842 484 42a0f599e723c85e23cfdaead93ecd7660c3eb46 C:\Users\mknoertzer.STARWARS\AndroidStudioProjects\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\model\User.class
+1390653243102 361 37dd1e813b3c7d5a96aa79aafa117127553798b9 C:\Users\mknoertzer.STARWARS\AndroidStudioProjects\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\R$attr.class
+1390653243104 482 2f057641da9dd55c893e9d4b4485c8e0fa7f68b2 C:\Users\mknoertzer.STARWARS\AndroidStudioProjects\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\R$dimen.class
+1390653242997 477 8824834a52730f6e9c0597cb564e63d7d69ae407 C:\Users\mknoertzer.STARWARS\AndroidStudioProjects\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\util\URL.class
+1390653242837 463 ca88e68ed9a8702c8647e794fa22721be4d794f2 C:\Users\mknoertzer.STARWARS\AndroidStudioProjects\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\model\Tweet.class
+1390653242986 1650 89fa9b76294006ad52e22bbe2401f27ba52d973c C:\Users\mknoertzer.STARWARS\AndroidStudioProjects\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\util\AbstractParser.class
+1390653243128 480 07aa1b014628b5ad882f45879c42ca03c0c49474 C:\Users\mknoertzer.STARWARS\AndroidStudioProjects\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\BuildConfig.class
+1390653242827 338 0a493177022c8ab9a97d86a36507d768a75a1d0a C:\Users\mknoertzer.STARWARS\AndroidStudioProjects\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\controller\TmpController.class
+1390653243105 428 f6dfd136d2344c439ae286c6329defb0fe90f872 C:\Users\mknoertzer.STARWARS\AndroidStudioProjects\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\R$drawable.class
+1390653243003 317 63feed3defd29b0575ce58c7586fc7c3770d65d2 C:\Users\mknoertzer.STARWARS\AndroidStudioProjects\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\util\UserParser.class
+1390653243107 447 8222913de34d3de90fcbcb808623732dbd8d7119 C:\Users\mknoertzer.STARWARS\AndroidStudioProjects\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\R$id.class
+1390653243123 416 5857fae2f8649d2b8355f8fb4170d81b801ba264 C:\Users\mknoertzer.STARWARS\AndroidStudioProjects\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\R$style.class
+1390653243113 409 cf499c28a0103044ec9cd9f741f9477f0c1f69c9 C:\Users\mknoertzer.STARWARS\AndroidStudioProjects\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\R$menu.class
+1390653243112 461 b5c47fb834290f7bdb1ab9cf908ed469f0c5cb3b C:\Users\mknoertzer.STARWARS\AndroidStudioProjects\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\R$layout.class
+1390653243120 493 8a4593da183c7c4f1c28d149ee8ac97d021c3c0a C:\Users\mknoertzer.STARWARS\AndroidStudioProjects\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\R$string.class
+1390653243124 747 e51f4ac8aa4bee06e8c9441df0d6d05ec0b3df34 C:\Users\mknoertzer.STARWARS\AndroidStudioProjects\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\R.class
+1390653243076 1602 9aadc904b7ba7e13026dd7084c047671d13785c7 C:\Users\mknoertzer.STARWARS\AndroidStudioProjects\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\view\MainActivity.class
+1390653242872 422 8b2b6c4a8736fe8ea6658ff99b17c2fc40bb21be C:\Users\mknoertzer.STARWARS\AndroidStudioProjects\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\model\World.class
+1390653243069 963 2208ecbfe5538901a7de3b25245f0b142bd10f7e C:\Users\mknoertzer.STARWARS\AndroidStudioProjects\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\view\MainActivity$PlaceholderFragment.class
+1390653242989 320 75fe0c8c1261e3a5d561c8c92ab0b24d0a379688 C:\Users\mknoertzer.STARWARS\AndroidStudioProjects\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\util\TweetParser.class
