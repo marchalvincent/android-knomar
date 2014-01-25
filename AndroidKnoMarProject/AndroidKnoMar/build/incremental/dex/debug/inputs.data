@@ -1,0 +1,23 @@
+# incremental data. DO NOT EDIT.
+# format is <lastModified> <length> <SHA-1> <path>
+# Encoding is UTF-8
+1390652148311 409 cf499c28a0103044ec9cd9f741f9477f0c1f69c9 C:\Docs michel\Projet Android\workspace\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\R$menu.class
+1390652148179 2626 2cd798e12c7f2a2a48787713466f9df7e66aebae C:\Docs michel\Projet Android\workspace\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\util\AbstractParser.class
+1390652148185 320 75fe0c8c1261e3a5d561c8c92ab0b24d0a379688 C:\Docs michel\Projet Android\workspace\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\util\TweetParser.class
+1390652148288 361 37dd1e813b3c7d5a96aa79aafa117127553798b9 C:\Docs michel\Projet Android\workspace\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\R$attr.class
+1390652148197 317 63feed3defd29b0575ce58c7586fc7c3770d65d2 C:\Docs michel\Projet Android\workspace\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\util\UserParser.class
+1390652148316 493 8a4593da183c7c4f1c28d149ee8ac97d021c3c0a C:\Docs michel\Projet Android\workspace\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\R$string.class
+1390652148191 477 8824834a52730f6e9c0597cb564e63d7d69ae407 C:\Docs michel\Projet Android\workspace\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\util\URL.class
+1390652148319 416 5857fae2f8649d2b8355f8fb4170d81b801ba264 C:\Docs michel\Projet Android\workspace\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\R$style.class
+1390652148112 484 42a0f599e723c85e23cfdaead93ecd7660c3eb46 C:\Docs michel\Projet Android\workspace\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\model\User.class
+1390652148331 480 07aa1b014628b5ad882f45879c42ca03c0c49474 C:\Docs michel\Projet Android\workspace\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\BuildConfig.class
+1390652148109 463 ca88e68ed9a8702c8647e794fa22721be4d794f2 C:\Docs michel\Projet Android\workspace\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\model\Tweet.class
+1390652148275 1602 9aadc904b7ba7e13026dd7084c047671d13785c7 C:\Docs michel\Projet Android\workspace\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\view\MainActivity.class
+1390652148307 461 b5c47fb834290f7bdb1ab9cf908ed469f0c5cb3b C:\Docs michel\Projet Android\workspace\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\R$layout.class
+1390652148268 963 2208ecbfe5538901a7de3b25245f0b142bd10f7e C:\Docs michel\Projet Android\workspace\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\view\MainActivity$PlaceholderFragment.class
+1390652148115 422 8b2b6c4a8736fe8ea6658ff99b17c2fc40bb21be C:\Docs michel\Projet Android\workspace\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\model\World.class
+1390652148298 428 f6dfd136d2344c439ae286c6329defb0fe90f872 C:\Docs michel\Projet Android\workspace\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\R$drawable.class
+1390652148324 747 e51f4ac8aa4bee06e8c9441df0d6d05ec0b3df34 C:\Docs michel\Projet Android\workspace\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\R.class
+1390652148106 338 0a493177022c8ab9a97d86a36507d768a75a1d0a C:\Docs michel\Projet Android\workspace\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\controller\TmpController.class
+1390652148292 482 2f057641da9dd55c893e9d4b4485c8e0fa7f68b2 C:\Docs michel\Projet Android\workspace\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\R$dimen.class
+1390652148302 447 8222913de34d3de90fcbcb808623732dbd8d7119 C:\Docs michel\Projet Android\workspace\AndroidKnoMarProject\AndroidKnoMar\build\classes\debug\com\example\androidknomar\R$id.class
