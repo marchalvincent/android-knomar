@@ -61,6 +61,7 @@ public class TweetParser extends AbstractParser {
                     case XmlPullParser.END_TAG :
                         currentElem = "";
                         if(xmlPullParser.getName().equals(Tweet.CONST_TWEET)){
+                            currentTweet.setUser(currentUser);
                             listTweet.add(currentTweet);
                             currentTweet = null;
                         }
