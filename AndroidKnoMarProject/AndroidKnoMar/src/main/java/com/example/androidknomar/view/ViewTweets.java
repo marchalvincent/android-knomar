@@ -70,6 +70,7 @@ public class ViewTweets extends ListActivity {
             Intent i = new Intent(this.getApplicationContext(), ViewDetailTweet.class);
             State.tweetToPrint = tweet;
             this.startActivity(i);
+            this.finish();
         }
     }
 
@@ -96,6 +97,7 @@ public class ViewTweets extends ListActivity {
                 State.oneUserOrNull = null;
                 Intent i = new Intent(this.getApplicationContext(), ViewUsers.class);
                 this.startActivity(i);
+                this.finish();
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
@@ -148,20 +150,6 @@ public class ViewTweets extends ListActivity {
         setListAdapter(array);
     }
 
-    /**
-     * A placeholder fragment containing a simple view.
-     */
-    public static class PlaceholderFragment extends Fragment {
-
-        public PlaceholderFragment() {
-        }
-
-        @Override
-        public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                                 Bundle savedInstanceState) {
-            View rootView = inflater.inflate(R.layout.fragment_no_follow, container, false);
-            return rootView;
-        }
     @Override
     public void onBackPressed() {
         new AlertDialog.Builder(this)

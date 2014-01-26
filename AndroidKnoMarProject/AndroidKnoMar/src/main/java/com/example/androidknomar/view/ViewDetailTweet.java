@@ -58,6 +58,7 @@ public class ViewDetailTweet extends Activity {
                 // go back to the ViewTweets view
                 Intent i = new Intent(this.getApplicationContext(), ViewTweets.class);
                 this.startActivity(i);
+                this.finish();
                 return true;
         }
         return super.onOptionsItemSelected(item);
