@@ -1,7 +1,9 @@
 package com.example.androidknomar.view;
 
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.app.Fragment;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -65,5 +67,25 @@ public class ViewDetailTweet extends Activity {
                 return true;
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public void onBackPressed() {
+        new AlertDialog.Builder(this)
+                .setIcon(android.R.drawable.ic_dialog_alert)
+                .setTitle("Quit ?")
+                .setMessage("Really want to quit ?")
+                .setPositiveButton("Yes", new DialogInterface.OnClickListener()
+                {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        //ViewDetailTweet.super.onBackPressed();
+                        finish();
+                        //System.exit(0);
+                    }
+
+                })
+                .setNegativeButton("No", null)
+                .show();
     }
 }
