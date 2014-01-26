@@ -28,3 +28,5 @@ AndroidKnoMarProject/AndroidKnoMar/build/classes/debug/com/example/androidknomar
 AndroidKnoMarProject/AndroidKnoMar/build/classes/debug/com/example/androidknomar/model/World.class
 AndroidKnoMarProject/AndroidKnoMar/build/classes/debug/com/example/androidknomar/controller/LoadWorldAsyncTask.class
 AndroidKnoMarProject/AndroidKnoMar/build/apk/AndroidKnoMar-debug-unaligned.apk
+AndroidKnoMarProject/AndroidKnoMar/build/classes/debug/com/example/androidknomar/util/TweetParser.class
+AndroidKnoMarProject/AndroidKnoMar/build/classes/debug/com/example/androidknomar/model/Tweet.class
