@@ -24,6 +24,7 @@
         </activity>
         <activity android:name=".view.ViewUsers"></activity>
         <activity android:name=".view.ViewTweets"></activity>
+        <activity android:name=".view.ViewDetailTweet"></activity>
     </application>
     <uses-permission android:name="android.permission.INTERNET" />
 </manifest>

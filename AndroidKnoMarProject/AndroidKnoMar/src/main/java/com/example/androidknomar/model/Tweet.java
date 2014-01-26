@@ -1,5 +1,7 @@
 package com.example.androidknomar.model;
 
+import android.net.Uri;
+
 import java.io.Serializable;
 import java.net.URI;
 
@@ -18,7 +20,7 @@ public class Tweet implements Serializable
     private User user;
     private String message;
     private String hashtag;
-    private URI url;
+    private String url;
     private String date;
 
     public Tweet(User user){
@@ -49,11 +51,11 @@ public class Tweet implements Serializable
         this.hashtag = hashtag.replaceAll("\n+","");
     }
 
-    public URI getUrl() {
+    public String getUrl() {
         return url;
     }
 
-    public void setUrl(URI url) {
+    public void setUrl(String url) {
         this.url = url;
     }
 

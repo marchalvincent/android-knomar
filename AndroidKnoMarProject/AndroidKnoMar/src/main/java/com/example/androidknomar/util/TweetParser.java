@@ -1,5 +1,7 @@
 package com.example.androidknomar.util;
 
+import android.net.Uri;
+
 import com.example.androidknomar.model.Tweet;
 import com.example.androidknomar.model.User;
 
@@ -102,7 +104,7 @@ public class TweetParser extends AbstractParser {
 
         } else if (currentElem.equals(Tweet.CONST_URL)) {
             value = xmlPullParser.getText();
-            currentTweet.setUrl(new URI(value));
+            currentTweet.setUrl(value);
 
         } else {
             //throw new Exception("Error Parser : this kind of message does not exist ! " + currentElem);

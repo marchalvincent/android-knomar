@@ -15,6 +15,7 @@ import com.example.androidknomar.R;
 import com.example.androidknomar.model.Tweet;
 import com.example.androidknomar.model.User;
 import com.example.androidknomar.model.World;
+import com.example.androidknomar.util.State;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -56,8 +57,9 @@ public class ViewTweets extends ListActivity {
         else if (o instanceof Tweet) {
             // need to display the details of the tweet in a new activity detail
             Tweet tweet = (Tweet) o;
-
-            // TODO
+            Intent i = new Intent(this.getApplicationContext(), ViewDetailTweet.class);
+            State.tweetToPrint = tweet;
+            this.startActivity(i);
         }
     }
 
