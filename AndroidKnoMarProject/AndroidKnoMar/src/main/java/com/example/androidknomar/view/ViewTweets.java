@@ -43,7 +43,13 @@ public class ViewTweets extends ListActivity {
 
         setContentView(R.layout.activity_tweets);
 
-        this.showListUser();
+        if (State.state == State.ViewTweetsState.showOneUser && State.oneUserOrNull != null) {
+            this.showUserTweets(State.oneUserOrNull);
+        } else if (State.state == State.ViewTweetsState.showAllTweets) {
+            this.showListTweets();
+        } else {
+            this.showListUser();
+        }
     }
 
     @Override
@@ -109,6 +115,8 @@ public class ViewTweets extends ListActivity {
         ArrayAdapter<User> array = new ArrayAdapter<User>(this,
                 android.R.layout.simple_list_item_1,
                 getFollowedUsers());
+        State.state = State.ViewTweetsState.showAllUsers;
+        State.oneUserOrNull = null;
         setListAdapter(array);
     }
 
@@ -116,6 +124,8 @@ public class ViewTweets extends ListActivity {
         ArrayAdapter<Tweet> array = new ArrayAdapter<Tweet>(this,
                 android.R.layout.simple_list_item_1,
                 user.getListTweet());
+        State.state = State.ViewTweetsState.showOneUser;
+        State.oneUserOrNull = user;
         setListAdapter(array);
     }
 
@@ -123,6 +133,8 @@ public class ViewTweets extends ListActivity {
         ArrayAdapter<Tweet> array = new ArrayAdapter<Tweet>(this,
                 android.R.layout.simple_list_item_1,
                 this.getFollowedUsersTweets());
+        State.state = State.ViewTweetsState.showAllTweets;
+        State.oneUserOrNull = null;
         setListAdapter(array);
     }
 }
