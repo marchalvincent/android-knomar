@@ -2,7 +2,9 @@ package com.example.androidknomar.view;
 
 import android.app.Activity;
 import android.app.ActionBar;
+import android.app.AlertDialog;
 import android.app.Fragment;
+import android.content.DialogInterface;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -54,6 +56,26 @@ public class MainActivity extends Activity {
             View rootView = inflater.inflate(R.layout.fragment_main, container, false);
             return rootView;
         }
+    }
+
+    @Override
+    public void onBackPressed() {
+        new AlertDialog.Builder(this)
+                .setIcon(android.R.drawable.ic_dialog_alert)
+                .setTitle("Quit ?")
+                .setMessage("Really want to quit ?")
+                .setPositiveButton("Yes", new DialogInterface.OnClickListener()
+                {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        //MainActivity.super.onBackPressed();
+                        finish();
+                        //System.exit(0);
+                    }
+
+                })
+                .setNegativeButton("No", null)
+                .show();
     }
 
 }

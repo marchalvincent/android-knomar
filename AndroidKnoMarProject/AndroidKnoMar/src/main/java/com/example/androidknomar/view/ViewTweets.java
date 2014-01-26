@@ -1,6 +1,8 @@
 package com.example.androidknomar.view;
 
+import android.app.AlertDialog;
 import android.app.ListActivity;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
@@ -141,5 +143,25 @@ public class ViewTweets extends ListActivity {
         State.state = State.ViewTweetsState.showAllTweets;
         State.oneUserOrNull = null;
         setListAdapter(array);
+    }
+
+    @Override
+    public void onBackPressed() {
+        new AlertDialog.Builder(this)
+                .setIcon(android.R.drawable.ic_dialog_alert)
+                .setTitle("Quit ?")
+                .setMessage("Really want to quit ?")
+                .setPositiveButton("Yes", new DialogInterface.OnClickListener()
+                {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        //ViewTweets.super.onBackPressed();
+                        finish();
+                        //System.exit(0);
+                    }
+
+                })
+                .setNegativeButton("No", null)
+                .show();
     }
 }
