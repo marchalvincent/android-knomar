@@ -1,0 +1,8 @@
+syntax: glob
+AndroidKnoMarProject/.idea/dictionaries/Mich.xml
+AndroidKnoMarProject/local.properties
+AndroidKnoMarProject/AndroidKnoMar/build/*
+*.bin
+*.class
+AndroidKnoMarProject/AndroidKnoMar/AndroidKnoMar.iml
+AndroidKnoMarProject/.idea/workspace.xml
