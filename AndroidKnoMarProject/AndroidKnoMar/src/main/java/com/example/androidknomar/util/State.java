@@ -4,7 +4,7 @@ import com.example.androidknomar.model.Tweet;
 import com.example.androidknomar.model.User;
 
 /**
- * Created by marchal.vincent on 26/01/14.
+ * Created by Vincent & Michel on 26/01/14.
  */
 public class State {
 

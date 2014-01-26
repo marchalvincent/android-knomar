@@ -13,7 +13,7 @@ import java.net.URI;
 import java.net.URISyntaxException;
 
 /**
- * Created by marchal.vincent on 25/01/14.
+ * Created by Vincent & Michel on 25/01/14.
  */
 public abstract class AbstractParser {
 

@@ -13,7 +13,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by marchal.vincent on 25/01/14.
+ * Created by Vincent & Michel on 25/01/14.
  */
 public class TweetParser extends AbstractParser {
 

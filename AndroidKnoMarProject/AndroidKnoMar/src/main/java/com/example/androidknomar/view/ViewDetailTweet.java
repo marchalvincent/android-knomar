@@ -20,7 +20,7 @@ import com.example.androidknomar.model.Tweet;
 import com.example.androidknomar.util.State;
 
 /**
- * Created by marchal.vincent on 26/01/14.
+ * Created by Vincent & Michel on 26/01/14.
  */
 public class ViewDetailTweet extends Activity {
 
@@ -28,13 +28,7 @@ public class ViewDetailTweet extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail_tweet);
-/*
-        if (savedInstanceState == null) {
-            getFragmentManager().beginTransaction()
-                    .add(R.id.container_main, new PlaceholderFragment())
-                    .commit();
-        }
-*/
+
         Tweet t = State.tweetToPrint;
         TextView hashtag = (TextView) findViewById(R.id.hashtag);
         hashtag.setText(t.getHashtag());

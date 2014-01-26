@@ -14,6 +14,9 @@ import android.os.Build;
 import com.example.androidknomar.R;
 import com.example.androidknomar.controller.LoadWorldAsyncTask;
 
+/**
+ * Created by Vincent & Michel on 26/01/14.
+ */
 public class MainActivity extends Activity {
 
     @Override

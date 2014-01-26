@@ -16,7 +16,7 @@ import com.example.androidknomar.model.User;
 import com.example.androidknomar.model.World;
 
 /**
- * Created by marchal.vincent on 25/01/14.
+ * Created by Vincent & Michel on 25/01/14.
  */
 public class ViewUsers extends ListActivity {
 
@@ -24,7 +24,6 @@ public class ViewUsers extends ListActivity {
 
     public ViewUsers() {
         super();
-        //setTitle("Follow someone");
         world = World.instance;
     }
 
@@ -35,6 +34,10 @@ public class ViewUsers extends ListActivity {
         super.onCreate(icicle);
 
         setContentView(R.layout.activity_users);
+
+        // set "no follow" by default
+        for(User u : world.getUsers())
+            u.setIsFollowed(false);
 
         ArrayAdapter<User> array = new ArrayAdapter<User>(this,
                 android.R.layout.simple_list_item_multiple_choice,

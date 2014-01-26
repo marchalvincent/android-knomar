@@ -12,7 +12,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 /**
- * Created by marchal.vincent on 26/01/14.
+ * Created by Vincent & Michel on 26/01/14.
  */
 public class AsyncUploadImage extends AsyncTask<Object, Object, Object> {
     private static final String TAG = "AsyncUploadImage ";

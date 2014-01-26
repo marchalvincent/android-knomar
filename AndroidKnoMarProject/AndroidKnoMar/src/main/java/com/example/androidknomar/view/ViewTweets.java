@@ -21,7 +21,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by marchal.vincent on 25/01/14.
+ * Created by Vincent & Michel on 25/01/14.
  */
 public class ViewTweets extends ListActivity {
 
@@ -30,7 +30,6 @@ public class ViewTweets extends ListActivity {
 
     public ViewTweets() {
         super();
-        setTitle("Tweets from");
         world = World.instance;
         viewTweets = this;
     }
@@ -86,6 +85,12 @@ public class ViewTweets extends ListActivity {
             case R.id.menu_show_tweets:
                 // go to the next activity
                 this.showListTweets();
+                return true;
+            case R.id.menu_show_tweets_back:
+                State.state = State.ViewTweetsState.def;
+                State.oneUserOrNull = null;
+                Intent i = new Intent(this.getApplicationContext(), ViewUsers.class);
+                this.startActivity(i);
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
