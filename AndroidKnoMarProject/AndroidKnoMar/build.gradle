@@ -22,6 +22,4 @@ android {
     }
 }
 
-dependencies {
-    compile files('jar/android-support-v4.jar')
-}
+dependencies {}
