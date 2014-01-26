@@ -59,6 +59,7 @@ public class LoadWorldAsyncTask extends AsyncTask<Void, Integer, World> {
         // on fait passer la page suivante, une nouvelle activité
         Intent i = new Intent(activity.getApplicationContext(), ViewUsers.class);
         activity.startActivity(i);
+        activity.finish();
     }
 
     @Override

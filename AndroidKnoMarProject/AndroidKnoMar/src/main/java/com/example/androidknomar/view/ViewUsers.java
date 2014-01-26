@@ -69,6 +69,7 @@ public class ViewUsers extends ListActivity {
                 // go to the next activity
                 Intent i = new Intent(this.getApplicationContext(), ViewTweets.class);
                 this.startActivity(i);
+                this.finish();
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
@@ -89,7 +90,6 @@ public class ViewUsers extends ListActivity {
                         finish();
                         //System.exit(0);
                     }
-
                 })
                 .setNegativeButton("No", null)
                 .show();
